@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Open+Sans:ital,wght@1,300&family=Pacifico&family=Roboto+Slab:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #E1A842;
+}
+
+header,
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+#searchInput,
+#sortBtn {
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+#searchInput::placeholder {
+  text-align: center;
+}
+#rangeInput {
+  margin: 10px;
+  font-family: ;
+}
+
+#sortBtn {
+  color: white;
+  background: teal;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+.card-container {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card-container .card {
+  border: 4px solid #FFFFFF;
+  width: 350px;
+  height: 500px;
+  padding: 10px;
+  justify-content: space-around;
+  background: #616161;
+}
+.card-container .card span{
+  
+  font-family: 'Agdasima', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Roboto Slab', serif; 
+}
+.card-container .card #recipe{
+  font-family: 'Pacifico', cursive;
+}
+.card-container .card img {
+  width: 300px;
+}
+.name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.recipe {
+  line-clamp: 4;
+  overflow: hidden;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+}
